@@ -1,24 +1,70 @@
-# 📉 Telecom Customer Churn: Exploratory & Diagnostic Analysis
+# 📉 Telecom Customer Churn Analysis
 
 ## 📌 Project Overview
-Customer churn is one of the most expensive problems in the subscription-driven telecom industry. Acquiring a new customer costs far more than retaining an existing one. 
 
-This project performs an in-depth Exploratory Data Analysis (EDA) on a dataset of 7,043 telecom customers to diagnose who is churning, why they are leaving, and how the business can identify high-risk segments early enough to intervene.
+This project focuses on Exploratory Data Analysis (EDA) and diagnostic analysis of telecom customer churn using Python. The goal is to understand why customers leave the service, identify high-risk customer segments, analyze revenue loss, and develop data-driven strategies to improve customer retention.
 
-## 🛠 Tools & Libraries Used
-* **Python:** Pandas, NumPy
-* **Data Visualization:** Matplotlib, Seaborn
-* **Environment:** Google Colab
+The project explores customer demographics, contract types, offers, internet services, payment methods, tenure, billing patterns, and churn behavior.
 
-## 📊 Key Business Insights
-Based on the diagnostic analysis of the resolved customer base (Overall Churn Rate: 28.37%), the following high-risk factors were identified:
+## 🎯 Business Objectives
 
-1. **The "Early Month" Danger Zone:** The vast majority of customer churn occurs within the first 1 to 6 months of service. Retention efforts must be heavily focused on the onboarding phase.
-2. **Contract & Offer Vulnerability:** Customers on Month-to-Month contracts are highly unstable, with a churn rate exceeding 51%. Furthermore, customer who has not subscribed to any promotional offer
-drives the highest volume of cancellations.
-3. **Internet vs. Phone Dependency:** Subscribing to internet services is a major risk factor (33.48% churn rate) compared to customers without internet (8.41%). Phone service alone does not heavily influence churn.
-4. **Household Signals:** Customers who are single, have no dependents, and have not made any referrals are significantly more likely to leave.
-5. **The Competitor Threat:** The top specific reasons for leaving are directly related to competitors offering better plans, devices, and offers, closely followed by frustration with customer support attitude.
+- Understand the overall customer churn problem.
+- Identify the key factors influencing customer cancellations.
+- Analyze churn across contracts, offers, payment methods, and services.
+- Investigate customer tenure and billing patterns.
+- Quantify revenue associated with churned customers.
+- Identify high-risk customers for proactive retention campaigns.
+- Recommend actionable strategies to improve customer loyalty.
+
+## 🛠️ Tools & Technologies
+
+- **Python** – Data analysis and manipulation.
+- **Pandas** – Data cleaning, transformation, and aggregation.
+- **NumPy** – Numerical operations and feature engineering.
+- **Matplotlib** – Data visualization.
+- **Seaborn** – Statistical visualization.
+- **SciPy** – Statistical testing.
+- **Jupyter Notebook / Google Colab** – Interactive analysis environment.
+
+## 📂 Dataset Overview
+
+The dataset contains customer information related to telecom services, account details, billing, customer status, and churn reasons.
+
+Key attributes explored include:
+
+- Customer demographics: Age, Gender, Married, Dependents.
+- Account information: Tenure, Contract, Offers, Referrals.
+- Services: Internet Type, Online Security, Tech Support, Streaming Services.
+- Billing and payments: Monthly Charge, Total Charges, Total Revenue, Payment Method.
+- Churn information: Customer Status, Churn Category, Churn Reason.
+
+
+## 💡 Key Business Insights
+
+- **Revenue Impact:** Approximately $3.68 million in revenue was associated with churned customers, representing about 17% of total revenue in the analysis.
+- **Contract Type:** Month-to-month customers showed a high churn rate of approximately 51.69%.
+- **Customer Tenure:** Churned customers had an average tenure of around 18 months, compared with more than 41 months for retained customers.
+- **Payment Methods:** Bank withdrawal accounted for a large volume of customer losses, while credit card users showed comparatively stronger retention.
+- **Monthly Charges:** Customers with higher monthly bills showed higher churn rates than customers with lower bills.
+- **Customer Services:** Lack of certain add-on services was associated with higher churn in several customer segments.
+- **Geographic Patterns:** San Diego showed a significant retention challenge, while Los Angeles had a high volume of customer cancellations.
+- **High-Risk Customers:** Combining short tenure, month-to-month contracts, and the absence of an offer helped identify a customer segment with elevated churn risk.
+
+
+## 🧠 Skills Demonstrated
+
+- Exploratory Data Analysis (EDA)
+- Data cleaning and preprocessing
+- Missing-value handling
+- Feature engineering
+- Pandas and NumPy
+- Data visualization with Matplotlib and Seaborn
+- Statistical analysis with SciPy
+- Churn rate and KPI analysis
+- Customer segmentation and risk identification
+- Revenue impact analysis
+- Business insight generation
+- Data-driven recommendations
 
 ## 📂 Repository Contents
 * `telecom_churn.ipynb`: The primary Jupyter Notebook containing data cleaning, type optimization, and visual diagnostic analysis.
