@@ -14,7 +14,8 @@ This project performs an in-depth Exploratory Data Analysis (EDA) on a dataset o
 Based on the diagnostic analysis of the resolved customer base (Overall Churn Rate: 28.37%), the following high-risk factors were identified:
 
 1. **The "Early Month" Danger Zone:** The vast majority of customer churn occurs within the first 1 to 6 months of service. Retention efforts must be heavily focused on the onboarding phase.
-2. **Contract & Offer Vulnerability:** Customers on Month-to-Month contracts are highly unstable, with a churn rate exceeding 51%. Furthermore, promotional "Offer E" is significantly underperforming and drives the highest volume of cancellations.
+2. **Contract & Offer Vulnerability:** Customers on Month-to-Month contracts are highly unstable, with a churn rate exceeding 51%. Furthermore, customer who has not subscribed to any promotional offer
+drives the highest volume of cancellations.
 3. **Internet vs. Phone Dependency:** Subscribing to internet services is a major risk factor (33.48% churn rate) compared to customers without internet (8.41%). Phone service alone does not heavily influence churn.
 4. **Household Signals:** Customers who are single, have no dependents, and have not made any referrals are significantly more likely to leave.
 5. **The Competitor Threat:** The top specific reasons for leaving are directly related to competitors offering better plans, devices, and offers, closely followed by frustration with customer support attitude.
